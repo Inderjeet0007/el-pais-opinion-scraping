@@ -92,6 +92,9 @@ The environment can be toggled using the `appConfig.js` file.
   ```javascript
   npm install
   ```
+- Create an account on Rapid API (https://rapidapi.com/auth/sign-up)
+- Subscribe to Google Translator (https://rapidapi.com/IRCTCAPI/api/google-translator9)
+- Update `rapidApiKey` with your API key in `appConfig.js`
 
 #### Remote
 In this scenario, BrowserStack SDK has been used. Hence, before running the tests, ensure the following:
@@ -118,7 +121,9 @@ Here `lint` has been added to the run command to ensure that there is no linting
   ```javascript
   npm run test-browserstack
   ```
-
+- Checkout results on your Automate Dashboard: <br/>
+  https://automate.browserstack.com/dashboard/v2/
+  
 #### Local
 - Running the Opinion Scraper test on local machine
   ```javascript
